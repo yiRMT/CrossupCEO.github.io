@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>私のホームページ</title>
-<meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>私のホームページ</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="common.css">
+    <!--link rel="stylesheet" href="screen.css" media="screen">
+    <link rel="stylesheet" href="print.css" media="print">
+    <link rel="stylesheet" href="handheld.css" media="handheld"-->
 </head>
 <body>
+    <h1>私のホームページ</h1>
 
-<h1>私のホームページ</h1>
+    <p>私は<a href="https://www.osakafu-u.ac.jp">大阪府立大学</a>の学生です．</p>
 
-<p>工事中</p>
+    <p>このページの <a href="#hoge">ほげ</a> という名前のところに飛びます．</p>
 
+    <h3 id="hoge">ほげ</h3>
+
+    <p>一時的に<span style="color: green;">スタイル</span>を適用する．</p>
+
+    <div style="color: green;">
+        <p>ここは緑．</p>
+        <p>ここも緑．</p>
+    </div>
+
+    <p>ここはインデントする．</p>
+    <p class="noindent">ここはしない．</p>
+
+    <p id="footer">ここはフッター</p>
 </body>
 </html>

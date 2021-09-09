@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>私のホームページ</title>
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="common.css">
-    <!--link rel="stylesheet" href="screen.css" media="screen">
-    <link rel="stylesheet" href="print.css" media="print">
-    <link rel="stylesheet" href="handheld.css" media="handheld"-->
-</head>
-<body>
-    <h1>私のホームページ</h1>
+  <head>
+    <meta charset="utf-8">
+    <title>CrossupCEO@GitHub</title>
+    <meta name="description" content="CrossupCEOのウェブサイト">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="site-header">
+      <div class="wrapper site-header__wrapper">
+        <a href="#" class="brand">CrossupCEO</a>
+        <nav class="nav">
+          <button class="nav__toggle" aria-expanded="false" type="button">
+            MENU
+          </button>
+          <ul class="nav__wrapper">
+            <li class="nav__item"><a href="#">Home</a></li>
+            <li class="nav__item"><a href="#">About</a></li>
+            <li class="nav__item"><a href="#">Services</a></li>
+            <li class="nav__item"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header End -->
+    <script src="scripts/header.js"></script>
 
-    <p>私は<a href="https://www.osakafu-u.ac.jp">大阪府立大学</a>の学生です．</p>
-
-    <p>このページの <a href="#hoge">ほげ</a> という名前のところに飛びます．</p>
-
-    <h3 id="hoge">ほげ</h3>
-
-    <p>一時的に<span style="color: green;">スタイル</span>を適用する．</p>
-
-    <div style="color: green;">
-        <p>ここは緑．</p>
-        <p>ここも緑．</p>
-    </div>
-
-    <p>ここはインデントする．</p>
-    <p class="noindent">ここはしない．</p>
-
-    <p id="footer">ここはフッター</p>
-</body>
+    <!--
+    <footer>
+      <small>
+        <ul class="footer-menu">
+          <li>HOME</li>
+          <li>|</li>
+          <li>ABOUT</li>
+          <li>|</li>
+          <li>CONTACT</li>
+        </ul>
+        <p>Copyright &copy; 2021 CrossupCEO All rights reserved.</p>
+      </small>
+    </footer>
+    -->
+  </body>
 </html>
